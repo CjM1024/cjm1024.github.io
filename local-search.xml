@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>测试文章</title>
+    <link href="/2026/09/23/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <url>/2026/09/23/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文章，用来验证 Hexo 的文章与资源目录功能。</p><h2 id="代码块测试"><a href="#代码块测试" class="headerlink" title="代码块测试"></a>代码块测试</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">hello</span>(<span class="hljs-params">name</span>) &#123;<br>  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">`Hello, <span class="hljs-subst">$&#123;name&#125;</span>!`</span>);<br>&#125;<br><span class="hljs-title function_">hello</span>(<span class="hljs-string">&quot;Fluid&quot;</span>);<br></code></pre></td></tr></table></figure><h2 id="图片引用"><a href="#图片引用" class="headerlink" title="图片引用"></a>图片引用</h2><p>开启 <code>post_asset_folder: true</code> 后，<code>hexo new post</code> 会同时创建一个同名资源目录<br>（<code>source/_posts/测试文章/</code>），把图片放进去即可。</p><p><strong>推荐写法</strong>：使用 <code>asset_img</code> 标签</p><img src="/2026/09/23/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/test.png" class="" title="图片引用方法一"><p><strong>也可用</strong>：把图片放在 <code>source/images/</code> 目录，用绝对路径引用</p><p><img src="/images/test.png" alt="图片引用方法三"></p><blockquote><p>注意：直接写 <code>![alt](test.png)</code> 会被解析成站点根路径 <code>/test.png</code>，<br>默认无法显示，需要额外插件（如 hexo-asset-image）才能生效。</p></blockquote><h2 id="表格与列表"><a href="#表格与列表" class="headerlink" title="表格与列表"></a>表格与列表</h2><table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>生成器</td><td>Hexo</td></tr><tr><td>主题</td><td>Fluid</td></tr></tbody></table><ul><li>支持 Markdown</li><li>支持标签与分类</li><li>支持代码高亮</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>随笔</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2026/09/23/hello-world/"/>
+    <url>/2026/09/23/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
